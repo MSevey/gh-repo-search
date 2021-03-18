@@ -1,0 +1,32 @@
+{
+  "name": "gh-repo-search",
+  "version": "1.0.0",
+  "description": "Simple test repo for learning how to publish npm packages.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSevey/gh-repo-search.git"
+  },
+  "keywords": [],
+  "author": "Matthew Sevey <mjsevey@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSevey/gh-repo-search/issues"
+  },
+  "homepage": "https://github.com/MSevey/gh-repo-search#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "prettier": "^2.2.1"
+  }
+}
